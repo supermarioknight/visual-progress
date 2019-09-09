@@ -1,3 +1,7 @@
 import React from 'react';
 
-export const Match: React.FC<{}> = () => <div>hi</div>;
+interface MatchProps {
+  className?: string;
+}
+
+export const Match: React.FC<MatchProps> = () => <div>hi</div>;
